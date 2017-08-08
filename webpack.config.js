@@ -20,7 +20,7 @@ module.exports = {
         //To specify the files we use test
         loader:'babel-loader',
         query :{
-          presets : ['react','es2015']
+          presets : ['react','es2015','stage-0']
         },
         test:/\.jsx?$/,
         //folders dont want to be parsed
